@@ -1,0 +1,156 @@
+body
+{
+	background-image: url('blue.jpg');
+	background-repeat: no-repeat;
+	
+}
+#bloc_page
+{
+	width: 863px;
+	margin: auto;
+	background-color: white;
+	height: 890px;
+}
+.web
+{
+	position: absolute;
+	
+	left: 0px;
+}
+.web2
+{
+	position: absolute;
+	
+	right: 0px;
+}
+nav
+{
+	display: inline-block;
+	background-color: rgb(40, 40, 40);
+	width: 863px;
+	height: 35px;
+
+}
+
+nav li
+{
+	display: inline-block;
+	margin-left: 30px;
+	font-weight: bold;
+	color: white;
+	font-size: 1.08em;
+	position: relative;
+	bottom: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+.accueil
+{
+	margin-left: 2px;
+}
+nav li:hover
+{
+	
+	text-decoration: underline;
+	
+	
+}
+
+
+section
+{
+	position:relative;
+	top: 160px;
+	margin-left: 7px;
+}
+
+
+article
+{
+	width: 500px;
+	display: inline-block;
+	border: 1px solid skyblue;
+	padding: 0px 5px 10px 5px;
+	background-color: rgb(153, 153, 153);
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+
+}
+article h1
+{
+	background-color: yellow;
+	color: black;
+}
+
+aside
+{
+	display: inline-block;
+	width: 300px;
+	border: 1px solid skyblue;
+	vertical-align: top;
+	background-color: grey;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding: 0px 4px 3px 4px;
+}
+aside h1
+{
+	background-color: white;
+	
+}
+footer
+{
+	position: relative;
+	top: 200px;
+	border-top: 1px solid black;
+	
+}
+#photos
+{
+	display: inline-block;
+	width: 400px;
+}
+#photos h2
+{
+	margin-left: 85px;
+}
+#photos img
+{
+	border: 1px solid skyblue;
+}
+
+#liensconnexes
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+}
+footer p
+{
+	margin-left: 5px;
+}
+.prog
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#fixed
+{
+	position: fixed;
+	z-index: 2;
+	background-color: white;
+}
+.telecharger
+{
+	margin-left: 170px;
+	border-radius: 12px 7px 7px 12px;
+}
+.nouveautes
+{
+	color: black;
+	text-decoration: underline;
+}
